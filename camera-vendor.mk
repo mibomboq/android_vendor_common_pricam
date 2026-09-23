@@ -1553,7 +1553,6 @@ PRODUCT_COPY_FILES += \
     vendor/prize/camera/proprietary/system_ext/etc/bst_stick.cfg:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/bst_stick.cfg \
     vendor/prize/camera/proprietary/system_ext/etc/bstai_aidoc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/bstai_aidoc \
     vendor/prize/camera/proprietary/system_ext/etc/bstaicorner_aidoc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/bstaicorner_aidoc \
-    vendor/prize/camera/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
     vendor/prize/camera/proprietary/system_ext/etc/singleaidoc.cfg:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/singleaidoc.cfg \
     vendor/prize/camera/proprietary/vendor/etc/hdr.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/hdr.cfg \
     vendor/prize/camera/proprietary/vendor/etc/user_front.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/user_front.cfg \
@@ -1568,11 +1567,6 @@ PRODUCT_PACKAGES += \
     libBstStick2D \
     libUvPanorama \
     libc++_shared \
-    libcomutils \
-    libimsma \
-    libimsma_adapt \
-    libimsma_rtp \
-    libimsma_socketwrapper \
     libjniBstAiDoc \
     libjniBstSticker \
     libjni_bstbeauty \
@@ -1580,19 +1574,7 @@ PRODUCT_PACKAGES += \
     libjni_bstportrait \
     libjni_uvpanorama \
     libloadfilter \
-    libmtk_vt_service \
-    libmtk_vt_wrapper \
     libopencv_java4 \
-    libpowerstatshaldataprovider \
-    libsignal \
-    libsink-mtk \
-    libsource \
     libtensorflowlite_system_ext \
     libtensorflowlite24 \
-    libvcodec_cap \
-    libvcodec_capenc \
-    libvt_avsync \
-    vendor.mediatek.hardware.videotelephony-V1-ndk_system_ext \
-    vendor.mediatek.hardware.videotelephony@1.0_system_ext \
-    PriCamera \
-    vtservice
+    PriCamera
