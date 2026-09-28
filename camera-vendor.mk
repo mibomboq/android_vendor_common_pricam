@@ -1583,7 +1583,6 @@ PRODUCT_PACKAGES += \
     libmtk_vt_service \
     libmtk_vt_wrapper \
     libopencv_java4 \
-    libpowerstatshaldataprovider \
     libsignal \
     libsink-mtk \
     libsource \
